@@ -5,6 +5,7 @@
  * Return: Always 0 (Success/correct)
  */
 int main(void)
+
 {
 	char base_16;
 
@@ -16,7 +17,8 @@ int main(void)
 	for (base_16 = 97; base_16 <= 102; base_16++)
 	{
 		putchar(base_16);
-				}
+			
+	}
 		putchar('\n');
 
 	return (0);
